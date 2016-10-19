@@ -111,10 +111,22 @@
     <Compile Include="EmailReportGen.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="popFindFacAttDaily.Designer.vb">
+      <DependentUpon>popFindFacAttDaily.vb</DependentUpon>
+    </Compile>
+    <Compile Include="popFindFacAttDaily.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="popDailyGen.Designer.vb">
       <DependentUpon>popDailyGen.vb</DependentUpon>
     </Compile>
     <Compile Include="popDailyGen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popFindFacAttMake.Designer.vb">
+      <DependentUpon>popFindFacAttMake.vb</DependentUpon>
+    </Compile>
+    <Compile Include="popFindFacAttMake.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="popMonthlyGen.Designer.vb">
@@ -214,10 +226,10 @@
       <DependentUpon>wdwMainMenu.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="popFindFacAtt.Designer.vb">
-      <DependentUpon>popFindFacAtt.vb</DependentUpon>
+    <Compile Include="popFindFacAttCourse.Designer.vb">
+      <DependentUpon>popFindFacAttCourse.vb</DependentUpon>
     </Compile>
-    <Compile Include="popFindFacAtt.vb">
+    <Compile Include="popFindFacAttCourse.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="popEncFacDaily.Designer.vb">
@@ -300,6 +312,12 @@
     <EmbeddedResource Include="popDailyGen.resx">
       <DependentUpon>popDailyGen.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="popFindFacAttDaily.resx">
+      <DependentUpon>popFindFacAttDaily.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popFindFacAttMake.resx">
+      <DependentUpon>popFindFacAttMake.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="popMonthlyGen.resx">
       <DependentUpon>popMonthlyGen.vb</DependentUpon>
     </EmbeddedResource>
@@ -348,8 +366,8 @@
     <EmbeddedResource Include="wdwMainMenu.resx">
       <DependentUpon>wdwMainMenu.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="popFindFacAtt.resx">
-      <DependentUpon>popFindFacAtt.vb</DependentUpon>
+    <EmbeddedResource Include="popFindFacAttCourse.resx">
+      <DependentUpon>popFindFacAttCourse.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="popEncFacDaily.resx">
       <DependentUpon>popEncFacDaily.vb</DependentUpon>

@@ -1,4 +1,4 @@
-﻿Public Class popFindFacAtt
+﻿Public Class popFindFacAttCourse
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
@@ -13,13 +13,13 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Back.Click
         Me.Hide()
-        wdwMainMenu.Show()
+        wdwClassInfo.Show()
 
     End Sub
 
     Private Sub Search_Click(sender As Object, e As EventArgs) Handles Search.Click
         Me.Hide()
-        wdwDailyAttendanceLog.Show()
+        wdwClassInfo.Show()
 
     End Sub
 End Class

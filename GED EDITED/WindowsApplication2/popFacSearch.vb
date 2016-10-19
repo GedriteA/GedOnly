@@ -1,7 +1,7 @@
 ﻿Public Class popFacSearch
     Private Sub bttnCancel_Click(sender As Object, e As EventArgs) Handles bttnCancel.Click
         Me.Hide()
-        wdwClassInfo.Show()
+        wdwDailyAttendanceLog.Show()
     End Sub
 
     Private Sub bttnSearch_Click(sender As Object, e As EventArgs) Handles bttnSearch.Click

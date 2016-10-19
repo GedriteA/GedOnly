@@ -38,7 +38,7 @@
 
     Private Sub bttnFind_Click(sender As Object, e As EventArgs) Handles bttnFind.Click
 
-        popFacSearch.Show()
+        popFindFacAttCourse.Show()
 
     End Sub
 End Class

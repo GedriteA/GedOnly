@@ -30,10 +30,10 @@ Partial Class wdwClassInfo
         Me.grid = New System.Windows.Forms.DataGridView()
         Me.txtDept = New System.Windows.Forms.TextBox()
         Me.bttnFind = New System.Windows.Forms.Button()
-        Me.bttnAdd = New System.Windows.Forms.Button()
-        Me.bttnModify = New System.Windows.Forms.Button()
         Me.bttnDelete = New System.Windows.Forms.Button()
         Me.bttnBack = New System.Windows.Forms.Button()
+        Me.bttnModify = New System.Windows.Forms.Button()
+        Me.bttnAdd = New System.Windows.Forms.Button()
         CType(Me.grid, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -105,24 +105,6 @@ Partial Class wdwClassInfo
         Me.bttnFind.Text = "Find"
         Me.bttnFind.UseVisualStyleBackColor = True
         '
-        'bttnAdd
-        '
-        Me.bttnAdd.Location = New System.Drawing.Point(153, 444)
-        Me.bttnAdd.Name = "bttnAdd"
-        Me.bttnAdd.Size = New System.Drawing.Size(97, 23)
-        Me.bttnAdd.TabIndex = 168
-        Me.bttnAdd.Text = "Add"
-        Me.bttnAdd.UseVisualStyleBackColor = True
-        '
-        'bttnModify
-        '
-        Me.bttnModify.Location = New System.Drawing.Point(267, 444)
-        Me.bttnModify.Name = "bttnModify"
-        Me.bttnModify.Size = New System.Drawing.Size(97, 23)
-        Me.bttnModify.TabIndex = 167
-        Me.bttnModify.Text = "Modify"
-        Me.bttnModify.UseVisualStyleBackColor = True
-        '
         'bttnDelete
         '
         Me.bttnDelete.Location = New System.Drawing.Point(378, 444)
@@ -140,6 +122,24 @@ Partial Class wdwClassInfo
         Me.bttnBack.TabIndex = 165
         Me.bttnBack.Text = "Back to Menu"
         Me.bttnBack.UseVisualStyleBackColor = True
+        '
+        'bttnModify
+        '
+        Me.bttnModify.Location = New System.Drawing.Point(267, 444)
+        Me.bttnModify.Name = "bttnModify"
+        Me.bttnModify.Size = New System.Drawing.Size(97, 23)
+        Me.bttnModify.TabIndex = 167
+        Me.bttnModify.Text = "Modify"
+        Me.bttnModify.UseVisualStyleBackColor = True
+        '
+        'bttnAdd
+        '
+        Me.bttnAdd.Location = New System.Drawing.Point(153, 444)
+        Me.bttnAdd.Name = "bttnAdd"
+        Me.bttnAdd.Size = New System.Drawing.Size(97, 23)
+        Me.bttnAdd.TabIndex = 168
+        Me.bttnAdd.Text = "Add"
+        Me.bttnAdd.UseVisualStyleBackColor = True
         '
         'wdwClassInfo
         '
@@ -174,8 +174,8 @@ Partial Class wdwClassInfo
     Friend WithEvents grid As DataGridView
     Friend WithEvents txtDept As TextBox
     Friend WithEvents bttnFind As Button
-    Friend WithEvents bttnAdd As Button
-    Friend WithEvents bttnModify As Button
     Friend WithEvents bttnDelete As Button
     Friend WithEvents bttnBack As Button
+    Friend WithEvents bttnModify As Button
+    Friend WithEvents bttnAdd As Button
 End Class

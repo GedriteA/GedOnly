@@ -56,7 +56,7 @@
     End Sub
 
     Private Sub Find_Click(sender As Object, e As EventArgs) Handles bttnFind.Click
-        popFacSearch.Show()
+        popFindFacAttMake.Show()
 
     End Sub
 End Class
